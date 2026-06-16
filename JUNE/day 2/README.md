@@ -1,4 +1,8 @@
-# Intro to HTML 
+---
+layout: default
+---
+
+# Intro to HTML
 
 ---
 

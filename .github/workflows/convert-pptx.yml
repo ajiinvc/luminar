@@ -44,7 +44,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           if ! git diff --staged --quiet; then
-            git commit -m "Auto-convert PPTX to Markdown [skip ci]"
+            git commit -m "Auto-convert PPTX to Markdown"
             git push
           else
             echo "No changes to commit"

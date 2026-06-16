@@ -40,6 +40,10 @@ def convert_pptx_to_md(pptx_path: Path):
     prs = Presentation(pptx_path)
 
     markdown = [
+        "---",
+        "layout: default",
+        "---",
+        "",
         f"# {pptx_path.stem}",
         "",
     ]
