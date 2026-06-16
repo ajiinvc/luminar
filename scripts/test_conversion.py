@@ -49,7 +49,7 @@ def compute_stem_slug(stem):
 
 def test_pptx_conversion(pptx_path):
     stem = pptx_path.stem
-    md_path = pptx_path.parent / "README.md"
+    md_path = pptx_path.parent / "index.md"
     prs = Presentation(str(pptx_path))
     parent = pptx_path.parent
     md_text = md_path.read_text(encoding="utf-8")
