@@ -33,7 +33,7 @@ def count_md_slides(md_text):
 
 
 def count_md_images(md_text):
-    return len(re.findall(r'<img\s+src="images/', md_text))
+    return len(re.findall(r'<img\s+src="assets/', md_text))
 
 
 def get_md_image_paths(md_text, md_dir):

@@ -52,7 +52,7 @@ def convert_pptx_to_md(pptx_path: Path):
 
     stem_slug = re.sub(r"[^\w\-]+", "_", pptx_path.stem.strip())
 
-    image_dir = pptx_path.parent / "images"
+    image_dir = pptx_path.parent / "assets"
 
     image_dir.mkdir(exist_ok=True)
 
