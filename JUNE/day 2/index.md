@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Intro to HTML
 
 ---

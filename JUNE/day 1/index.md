@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Intro to Web Development 1
 
 ---
