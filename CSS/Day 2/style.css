@@ -1,0 +1,45 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: rgb(255, 99, 42);
+}
+
+h2 {
+    text-align: center;
+
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.cls {
+    color: red;
+}
+
+#lang {
+    color: greenyellow;
+
+    text-decoration: underline;
+}
+
+h2,
+h3,
+h4 {
+    color: rgb(153, 226, 7);
+    text-align: center;
+}
+
+h1:hover {
+    font-size: 40px;
+    transition: 1s;
+    font-weight: 900;
+}
+p::first-line{
+    background-color: brown;
+    font-weight: 900;
+}

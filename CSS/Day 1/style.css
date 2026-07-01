@@ -1,0 +1,30 @@
+div {
+    background-image: url("https://t3.ftcdn.net/jpg/02/29/07/42/360_F_229074283_5HpNAac8t1a9q2hGcDkP94k0z2Nvcp0X.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+#head {
+    color: blue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    background-color: aliceblue;
+    border: 1px solid blueviolet;
+}
+
+.para {
+    background-color: rgb(0, 0, 0);
+    border: 4px dotted springgreen ;
+    color: wheat;
+    width: 50%;
+
+}
+span {
+    color: rgb(9, 207, 9);
+    font-size: 50px;
+}
+.tea {
+    color: blue;
+}

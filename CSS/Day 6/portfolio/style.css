@@ -1,0 +1,66 @@
+* {
+    font-family: "Roboto Mono", monospace;
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo {
+    width: 120px;
+    height: 60;
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bolder;
+    margin-right: 50px;
+}
+
+ul li a:hover {
+    text-shadow: 2px 4px 6px lightblue;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./images/hero-bg.jpg);
+    height: 800px;
+}
+
+.main img {
+    height: 400px;
+     margin-bottom: 200px;
+}
+.intro {
+    margin-bottom: 200px;
+    font-weight: bolder;
+}
+
+.intro h1 {
+    font-family: 30px;
+    margin: 5px;
+}
+
+.intro span{
+    color: rgb(69, 19, 116);
+    font-size: 40px;
+}
+
+pre {
+    text-decoration: underline;
+    font-weight: normal;
+}
+

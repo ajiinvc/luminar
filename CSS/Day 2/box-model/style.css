@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+}
+
+h1 {
+    color: brown;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 200px;
+    transition: 600ms;
+}
+
+img:hover {
+    padding: 20px;
+}
+
+div {
+    background-color: rgb(178, 164, 146);
+    width: 200px;
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 5px solid antiquewhite;
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+    margin-top: 6px;
+
+}

@@ -1,0 +1,27 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.row {
+    background-color: blueviolet;
+    width: 100%;
+    height: 900px;
+    padding: 10px;
+    position: relative;
+}
+.col {
+    background-color: cadetblue;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    position: absolute;
+}
+
+.col-1 {
+    margin-left: 275px;
+
+}
+.col-2 {
+    margin-left: 532px;
+}
